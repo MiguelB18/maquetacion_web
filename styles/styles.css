@@ -1,11 +1,18 @@
-.div{background-color: black;}
+div.container{
+  background-color: rgb(26, 25, 25);
+  height: 200vh;
+
+
+}
+
+
+
 
 div.caja1 {
     width: 100px;
     height: 100px;
     background: rgb(208, 48, 33);
-    padding: 20px;
-    margin: 20px;
+    
     
     
   }
@@ -13,24 +20,28 @@ div.caja1 {
     width: 100px;
     height: 100px;
     background: rgb(225, 204, 87);
-    padding: 20px;
-    margin: 20px;
+    
     
   }
-  div.caja3 {
-    width: 100px;
-    height: 100px;
-    background: rgb(43, 50, 170);
-    padding: 20px;
-    margin: 20px;
-    
-  }
+  
   div.caja4 {
     width: 100px;
     height: 100px;
     background: rgb(68, 173, 108);
-    padding: 20px;
-    margin: 20px;
+    
 
     }
+
+   .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
     
+  }
+
+  .container{background-size: 100%;
+
+
+
+  }
